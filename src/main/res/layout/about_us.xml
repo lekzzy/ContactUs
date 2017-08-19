@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#000000"
+    >
+    <TextView
+        android:id="@+id/text5_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="About Us"
+        android:textColor="#e6270f"
+        android:layout_gravity="center_horizontal"
+        android:layout_below="@id/image_text_view"
+        android:layout_toRightOf="@id/line_view"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:textSize="30sp"
+        android:fontFamily="monospace"/>
+    <TextView
+        android:id="@+id/text6_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="We are the Regional Internet Registry for West Africa. As such, we allocate and register blocks of Internet number resources to Internet service providers (ISPs) and other organisations. We are non-profit organisation that works to support the wider Internet community.   The NCC membership consists mainly of Internet service providers, telecommunication organisations."
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:layout_below="@id/text5_view"
+        android:layout_toRightOf="@id/line_view"
+        android:layout_marginLeft="5dp"
+        android:textSize="20sp"
+        android:fontFamily="casual"/>
+
+
+</LinearLayout>

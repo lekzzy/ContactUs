@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wood"
+    tools:context="com.example.aderelemaryidowu.contactus.MainActivity">
+
+    <ImageView
+        android:id="@+id/image_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/vnc1"
+        android:background="#302727"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vo-tech Networking Centre"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:layout_alignBottom="@id/image_text_view"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="20dp"
+        android:textSize="25sp"
+        android:fontFamily="cursive"/>
+
+    <ImageView
+        android:id="@+id/address_image_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/location"
+        android:layout_marginTop="17dp"
+
+        android:layout_below="@id/image_text_view" />
+    <TextView
+        android:id="@+id/address_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3, kaltungo street"
+        android:textColor="#000000"
+        android:layout_below="@id/image_text_view"
+        android:layout_toRightOf="@id/address_image_view"
+        android:layout_marginTop="12dp"
+        android:textSize="16sp"
+        android:fontFamily="casual"/>
+        />
+    <TextView
+        android:id="@+id/address2_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Garki II, Abuja"
+        android:textColor="#000000"
+        android:layout_below="@id/address_text_view"
+        android:layout_toRightOf="@id/address_image_view"
+        android:layout_marginBottom="8dp"
+        android:textSize="16sp"
+        android:fontFamily="casual"/>
+    />
+    <ImageView
+        android:id="@+id/message_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/facebook"
+        android:layout_marginTop="8dp"
+
+        android:layout_below="@id/address_image_view" />
+    <TextView
+        android:id="@+id/text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="vo-technetwork"
+        android:textColor="#000000"
+        android:layout_below="@id/address_text_view"
+        android:layout_toRightOf="@id/message_text_view"
+        android:layout_marginTop="26dp"
+        android:textSize="16sp"
+        android:fontFamily="casual"/>
+    <View
+        android:id="@+id/line_view"
+        android:layout_width="0.8dp"
+        android:layout_height="280dp"
+        android:layout_toRightOf="@id/text_view"
+        android:layout_marginLeft="35dp"
+        android:layout_below="@id/image_text_view"
+        android:background="#e64a19"
+        />
+    <ImageView
+        android:id="@+id/clock_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/clock"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/message_text_view" />
+    <TextView
+        android:id="@+id/text1_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mon-Fri:8am-5pm"
+        android:textColor="#000000"
+        android:layout_below="@id/text_view"
+        android:layout_toRightOf="@id/clock_text_view"
+        android:layout_marginTop="15dp"
+        android:textSize="16sp"
+        android:fontFamily="casual"/>
+    <TextView
+        android:id="@+id/text2_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sat:9am-3pm"
+        android:textColor="#000000"
+        android:layout_below="@id/text1_view"
+        android:layout_toRightOf="@id/clock_text_view"
+
+        android:textSize="16sp"
+        android:fontFamily="casual"/>
+
+    <ImageView
+        android:id="@+id/internet_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/internet"
+        android:layout_marginTop="7dp"
+        android:layout_below="@id/clock_text_view" />
+    <TextView
+        android:id="@+id/text3_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="www.vnc.com"
+        android:textColor="#000000"
+        android:layout_below="@id/text1_view"
+        android:layout_toRightOf="@id/internet_text_view"
+        android:layout_marginTop="24dp"
+        android:textSize="16sp"
+        android:fontFamily="casual"/>
+
+    <ImageView
+        android:id="@+id/mobile_image_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/mobile"
+        android:layout_marginTop="7dp"
+        android:layout_below="@id/internet_text_view" />
+    <TextView
+        android:id="@+id/text4_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+2347031117862"
+        android:textColor="#000000"
+        android:layout_below="@id/text3_view"
+        android:layout_toRightOf="@id/mobile_image_view"
+        android:layout_marginTop="18dp"
+        android:textSize="16sp"
+        android:fontFamily="casual"/>
+    <ImageView
+        android:id="@+id/barcode_image_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/barcod"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="50dp"
+        android:layout_below="@id/text4_view" />
+    <TextView
+        android:id="@+id/text5_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Core Values"
+        android:textColor="#e6270f"
+        android:layout_below="@id/image_text_view"
+        android:layout_toRightOf="@id/line_view"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="45dp"
+        android:textSize="16sp"
+        android:fontFamily="monospace"/>
+    <TextView
+        android:id="@+id/text6_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="* Integrity"
+        android:textColor="#000000"
+        android:layout_below="@id/text5_view"
+        android:layout_toRightOf="@id/line_view"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="5dp"
+        android:textSize="16sp"
+        android:fontFamily="casual"/>
+    <TextView
+        android:id="@+id/text7_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="* Professionalism"
+        android:textColor="#000000"
+        android:layout_below="@id/text6_view"
+        android:layout_toRightOf="@id/line_view"
+        android:layout_marginLeft="5dp"
+        android:layout_marginBottom="8dp"
+        android:textSize="16sp"
+        android:fontFamily="casual"/>
+    <TextView
+        android:id="@+id/text8_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="* Service"
+        android:textColor="#000000"
+        android:layout_below="@id/text7_view"
+        android:layout_toRightOf="@id/line_view"
+        android:layout_marginLeft="5dp"
+        android:layout_marginBottom="8dp"
+        android:textSize="16sp"
+        android:fontFamily="casual"/>
+    <TextView
+        android:id="@+id/text9_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="* Speed"
+        android:textColor="#000000"
+        android:layout_below="@id/text8_view"
+        android:layout_toRightOf="@id/line_view"
+        android:layout_marginLeft="5dp"
+        android:layout_marginBottom="8dp"
+        android:textSize="16sp"
+        android:fontFamily="casual"/>
+    <TextView
+        android:id="@+id/text10_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="It's all about Internet"
+        android:textColor="#e6270f"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="8dp"
+      android:layout_marginLeft="100dp"
+        android:textSize="16sp"
+        android:fontFamily="cursive"/>
+
+    <Button
+        android:id="@+id/about_us"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_toEndOf="@+id/text6_view"
+        android:layout_toRightOf="@+id/text6_view"
+        android:text="About Us"
+        android:onClick="aboutUs"/>
+
+
+</RelativeLayout>
